@@ -1,0 +1,7 @@
+{
+  "name": "copilin",
+  "private": true,
+  "scripts": {
+    "zip": "zip -r dist.zip dist/ -x '*.DS_Store'"
+  }
+}
