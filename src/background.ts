@@ -22,7 +22,7 @@ function copyToClipboard(text: string) {
 
 function copyContextMenu(
   info: chrome.contextMenus.OnClickData,
-  tab?: chrome.tabs.Tab | undefined
+  tab: chrome.tabs.Tab | undefined
 ) {
   const title = info.selectionText
   const url = info.linkUrl
